@@ -4,7 +4,7 @@ import random
 ran_things = ("ASDFGHJKLMNBVCXZQWERTYUIOPasdfghjklzxcvbnm1234567890!@#$%^&*")
 lis_thing = list(ran_things)
 try:
-    Pass = int(input("Enter the length of password: "))
+    Pass = int(input("Enter the length of password between(8 - 16): "))
 
 except ValueError as e:
     print("Please enter the valid numbers",e)
